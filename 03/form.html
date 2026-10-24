@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Sign up</h1>
+		<form action="#">
+			<p>
+				<label from="email">Email:</label>
+				<input id="email" type="email" placeholder="Email" value="email" />
+			</p>
+			<p>
+				<label from="password">Password:</label>
+				<input
+					id="password"
+					type="password"
+					placeholder="Password"
+					value="password"
+				/>
+			</p>
+			<fieldset>
+				<legend>Personal Information</legend>
+				<p>
+					<label for="name">Name:</label>
+					<input id="name" type="text" placeholder="Name" value="Name" />
+				</p>
+				<p>
+					<label for="secondname">Second Name:</label>
+					<input
+						id="secondname"
+						type="text"
+						placeholder="Second Name"
+						value="Second Name"
+					/>
+				</p>
+				<p>
+					<label for="age">Age:</label>
+					<input
+						id="age"
+						type="date"
+						placeholder="Age"
+						value="Age"
+						min="1979-12-31"
+						max="2008-01-01"
+					/>
+				</p>
+				<p>
+					<label for="birthdaytime">Birthday (date and time):</label>
+					<input type="datetime-local" id="birthdaytime" name="birthdaytime" />
+				</p>
+				<p>
+					<label for="bdaymonth">Birthday (month and year):</label>
+					<input type="month" id="bdaymonth" name="bdaymonth" />
+				</p>
+				<p>
+					<lable for="numbers">Numbers:</lable>
+					<input type="number" id="numbers" max="10" min="1" step="2" />
+				</p>
+				<p>
+					<label for="range">Range:</label>
+					<input type="range" id="range" min="-10" max="100" step="3" />
+				</p>
+				<p>
+					<label for="week">Select a week:</label>
+					<input type="week" id="week" name="week" />
+				</p>
+				<p>
+					<label for="gsearch">Search Google:</label>
+					<input type="search" id="gsearch" name="gsearch" />
+				</p>
+				<p>
+					<label for="appt">Select a time:</label>
+					<input type="time" id="appt" name="appt" />
+				</p>
+				<p>
+					Gender:
+					<input id="male" type="radio" value="Male" />
+					<label for="male">Male</label>
+					<input id="female" type="radio" value="Female" />
+					<label for="female">Female</label>
+				</p>
+				<p>
+					<label for="photo">Add Photo:</label>
+					<input id="photo" type="file" value="Photo" />
+					<br />
+					<strong>or send a link</strong>
+					<input id="photo" type="url" value="Photo url" />
+				</p>
+				<p>
+					<label for="tel">Phone:</label>
+					<input id="tel" type="tel" placeholder="+1 (555) 123-4567" />
+				</p>
+				<p>
+					<label for="color">Color:</label>
+					<input id="color" type="color" value="#ff0000" />
+					<input type="hidden" />
+				</p>
+			</fieldset>
+			<p>
+				<input
+					type="image"
+					alt="Submit"
+					width="60"
+					height="30"
+					src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d0a4481f-e801-4cb7-9daa-17cdae32cc89/icon-design-21-opt.png"
+				/>
+				<input type="submit" />
+				<input type="reset" />
+			</p>
+		</form>
+	</body>
+</html>

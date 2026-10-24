@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<a href="hw.html"><strong>Homework</strong></a>
+			</li>
+			<li>hello2</li>
+			<li>hello3</li>
+		</ul>
+		<hr />
+		<ol start="2" type="A">
+			<li>hello1</li>
+			<li>hello2</li>
+			<li>hello3</li>
+		</ol>
+		<ol reversed start="5" type="I">
+			<li>hello1</li>
+			<li>hello2</li>
+			<li>hello3</li>
+		</ol>
+		<hr />
+		<table border="4" style="width: 100%">
+			<thead>
+				<tr>
+					<th colspan="2">Name Secondname</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td rowspan="2">30</td>
+				</tr>
+				<tr>
+					<td>John</td>
+					<td>Doe2</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr />
+		<form action="#">
+			<p>
+				<label for="username">Type username</label>
+				<input
+					id="username"
+					type="text"
+					name="username"
+					placeholder="Type username"
+				/>
+			</p>
+			<p>
+				<label for="password">Type password</label>
+				<input
+					id="password"
+					type="password"
+					name="password"
+					placeholder="Type password"
+					disabled
+				/>
+			</p>
+			<fieldset>
+				<legend>Gender</legend>
+				<input type="radio" id="male" name="gender" value="male" />
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female" />
+				<label for="female">Female</label>
+			</fieldset>
+			<p>
+				<textarea cols="30" rows="5"> </textarea>
+			</p>
+			<p>
+				<lable for="cars"> choose a car: </lable>
+				<input type="checkbox" id="cars" value="car audi" />
+			</p>
+			<select>
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select>
+		</form>
+	</body>
+</html>
