@@ -1,0 +1,40 @@
+/* selectors */
+* {
+	color: red;
+}
+/* for all have 0 weight */
+h1 {
+	color: blue;
+}
+/* tagselector weight 0,0,1 read up down left to right */
+h1,
+h2 {
+	color: green;
+}
+/* one rule for all h1 and h2 elements, weight 0,0,1 */
+p h1 {
+	color: purple;
+}
+/* descendant selector weight 0,0,2, any new descendant + 0,0,1 to weight */
+#id {
+	color: orange;
+}
+/* id selector weight 1,0,0 */
+p#id {
+	color: yellow;
+}
+/* id selector weight 1,0,1 */
+.class {
+	color: pink;
+}
+/* class selector weight 0,1,0 */
+
+ul li:first-child {
+	color: brown;
+}
+/* pseudo-class selector weight 0,1,2 */
+
+ul li:nth-child(2) {
+	color: gray;
+}
+/* pseudo-class selector, changed second item, weight 0,1,2 */

@@ -1,0 +1,155 @@
+body {
+	box-sizing: border-box;
+	background-color: #f7b3b3;
+	font-family: inter, sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	margin: 100px auto;
+	padding: 56px 20px 91px 20px;
+	width: 360px;
+	border: none;
+	border-radius: 20px;
+}
+
+/* Header */
+.header {
+	width: 100%;
+}
+
+.header__button {
+	height: 30px;
+	margin-bottom: 23px;
+	padding-left: 0 8px;
+	border: none;
+	background-color: inherit;
+}
+/* hover button */
+.header__button:hover {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.header__button-img {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header__title {
+	margin: 0;
+	padding-left: 2;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+/* Main */
+.main {
+	padding-left: 4px;
+	margin-top: 17px;
+	margin-bottom: 32px;
+}
+
+.main__search {
+	width: 316px;
+	height: 44px;
+	border: none;
+	border-radius: 12px;
+	background-color: #efefef;
+	color: #999;
+	padding-left: 15px;
+}
+
+/* Category */
+
+.category {
+	margin-top: 29px;
+	margin-bottom: 32px;
+}
+
+.category-item {
+	display: inline-block;
+	text-align: center;
+	margin-right: 27px;
+}
+
+.category-item__img-container {
+	width: 74px;
+	line-height: 74px;
+	border-radius: 12px;
+	background-color: #efefef;
+}
+
+.category-item__img {
+	width: 37px;
+	vertical-align: middle;
+	opacity: 60%;
+}
+
+.category-item__title {
+	margin: 8px 0;
+	font-size: 16px;
+	font-weight: 500;
+	color: #c4c4c4;
+}
+
+/* category hover */
+
+.category-item:hover .category-item__title {
+	color: #000;
+}
+.category-item:hover .category-item__img-container {
+	background-color: #eae2b7;
+}
+
+.category-item:hover .category-item__img {
+	opacity: 100%;
+}
+/* Position */
+
+.food-position__title {
+	line-height: 24px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 26px;
+}
+
+.food-position__item {
+	width: 316px;
+	display: inline-block;
+	line-height: 88px;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	margin-top: 12px;
+}
+/* Item hover */
+.food-position__item:hover {
+	border-color: #000;
+	background-color: #eae2b7;
+}
+
+.food-position__img {
+	vertical-align: middle;
+	padding: 0 16px;
+}
+
+.position__description {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	text-align: left;
+}
+
+.position__title {
+	display: block;
+	font-weight: 400;
+	font-size: 16px;
+	color: #003049;
+}
+.position__price {
+	display: block;
+	font-weight: 500;
+	margin-top: 8px;
+	font-size: 14px;
+	color: #d62828;
+}
