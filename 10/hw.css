@@ -9,13 +9,17 @@ body {
 	color: #2d3640;
 }
 
+main {
+	width: 1243px;
+	margin: auto;
+}
+
 /* text */
 .section-text {
-	width: 995px;
-	margin: auto;
 	font-size: 48px;
 	line-height: 80px;
 	letter-spacing: -0.5px;
+	margin-bottom: 50px;
 }
 
 .section-text__title_bold {
@@ -30,10 +34,6 @@ body {
 }
 
 /* dev cards */
-.developers-cards {
-	width: 1260px;
-	margin: 50px auto 0 auto;
-}
 .developers-cards::after {
 	content: '';
 	display: block;
