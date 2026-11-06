@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=IBM+Plex+Sans:wght@100..700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e5eef0;
+	font-family: 'IBM Plex Sans', Roboto;
+	font-weight: 400;
+	padding-top: 71px;
+	padding-bottom: 64px;
+	color: #2d3640;
+}
+
+main {
+	width: 65%;
+	margin: auto;
+}
+
+/* text */
+.section-text {
+	font-size: 48px;
+	line-height: 80px;
+	letter-spacing: -0.5px;
+	margin-bottom: 50px;
+}
+
+.section-text__title_bold {
+	font-weight: 600;
+}
+
+.section-text__paragraph {
+	max-width: 695px;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0px;
+	color: #2b292d;
+}
+
+/* dev cards */
+.developers-cards::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.developers-cards__card {
+	width: 23%;
+	min-width: 200px;
+	padding: 58px 0 122px;
+	height: 470px;
+	margin-right: 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	float: left;
+}
+
+.developers-cards__card:last-child {
+	margin-right: auto;
+}
+
+/* photo */
+.developers-cards__photo-container {
+	max-width: 120px;
+	max-height: 120px;
+	overflow: hidden;
+	/* margin: 56px auto 35px; */
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 3px solid #eff3f8;
+}
+
+.developers-cards__photo {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+}
+/* information-container */
+
+.developers-cards__text-container {
+	text-align: center;
+	font-family: 'Catamaran', sans-serif;
+	margin-bottom: 33px;
+}
+
+.developers-cards__text-container_name {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: -0.63px;
+	color: #2d3640;
+}
+
+.developers-cards__text-container_position {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #4b4f52;
+}
+
+/* stack */
+
+.developers-cards__stack-container {
+	width: 195px;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: center;
+}
+
+.developers-cards__stack {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+	border-radius: 50%;
+	line-height: 50px;
+	text-align: center;
+}
+
+.developers-cards__stack:last-child {
+	margin-right: auto;
+}
+
+.developers-cards__stack_img {
+	vertical-align: middle;
+}
+
+/* stack bg */
+
+.vue-js {
+	background-color: #41b883;
+}
+
+.angular {
+	background-color: #34474f;
+}
+
+.flutter {
+	background-color: #202124;
+}
+
+.react {
+	background-color: #61dafb;
+}
+
+.java {
+	background-color: #d63033;
+}
+
+.html {
+	background-color: #e44e25;
+}
+
+.css {
+	background-color: #1073bb;
+}
