@@ -9,11 +9,11 @@
 		<h1>Sign up</h1>
 		<form action="#">
 			<p>
-				<label from="email">Email:</label>
+				<label for="email">Email:</label>
 				<input id="email" type="email" placeholder="Email" value="email" />
 			</p>
 			<p>
-				<label from="password">Password:</label>
+				<label for="password">Password:</label>
 				<input
 					id="password"
 					type="password"
@@ -56,7 +56,7 @@
 					<input type="month" id="bdaymonth" name="bdaymonth" />
 				</p>
 				<p>
-					<lable for="numbers">Numbers:</lable>
+					<label for="numbers">Numbers:</label>
 					<input type="number" id="numbers" max="10" min="1" step="2" />
 				</p>
 				<p>
@@ -77,17 +77,17 @@
 				</p>
 				<p>
 					Gender:
-					<input id="male" type="radio" value="Male" />
+					<input name="gender" id="male" type="radio" value="Male" />
 					<label for="male">Male</label>
-					<input id="female" type="radio" value="Female" />
+					<input name="gender" id="female" type="radio" value="Female" />
 					<label for="female">Female</label>
 				</p>
 				<p>
-					<label for="photo">Add Photo:</label>
-					<input id="photo" type="file" value="Photo" />
+					<label for="photo-file">Add Photo:</label>
+					<input id="photo-file" type="file" value="Photo" />
 					<br />
-					<strong>or send a link</strong>
-					<input id="photo" type="url" value="Photo url" />
+					<label for="photo-link">or send a link</label>
+					<input id="photo-link" type="url" value="Photo url" />
 				</p>
 				<p>
 					<label for="tel">Phone:</label>
