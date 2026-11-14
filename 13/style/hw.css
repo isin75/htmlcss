@@ -8,6 +8,12 @@ body {
 	padding: 62px 0 45px;
 	font-family: 'Nunito Sans', sans-serif;
 }
+
+.onHower {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
 .width {
 	width: 82.36%;
 	max-width: 1186px;
@@ -26,6 +32,11 @@ body {
 	font-size: 32px;
 	line-height: 1.2;
 	letter-spacing: 2px;
+}
+
+.header__logo:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 .header__nav {
@@ -135,6 +146,7 @@ button:focus::after {
 .main__text {
 	width: 494px;
 	height: 533px;
+	padding: 15px;
 }
 
 .main__section-title {
@@ -162,6 +174,7 @@ button:focus::after {
 
 .main__description {
 	width: 420px;
+	margin-bottom: 32px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -176,7 +189,6 @@ button:focus::after {
 	flex-direction: row;
 	align-items: center;
 	justify-content: left;
-	margin-top: 32px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.2;
@@ -219,10 +231,37 @@ button:focus::after {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 34px;
+	height: 34px;
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 100%;
 }
 
 .main__social-link_icon-link {
 	margin-bottom: 18px;
+}
+
+.main__social-link_icon-link:hover > .main__social-link_icon {
+	display: none;
+}
+
+.main__social-link_icon-link:hover {
+	display: flex;
+	width: 34px;
+	aspect-ratio: 1 / 1;
+	background-color: #f2994a;
+	border-radius: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.main__social-link_icon-hover {
+	display: none;
+}
+
+.main__social-link_icon-link:hover > .main__social-link_icon-hover {
+	display: block;
 }
 
 .main__social-link_icon-link:last-child {
@@ -234,16 +273,6 @@ button:focus::after {
 	aspect-ratio: 1 / 1;
 }
 
-.main__social-link_fb-container {
-	display: flex;
-	width: 34px;
-	aspect-ratio: 1 / 1;
-	background-color: #f2994a;
-	border-radius: 100%;
-	align-items: center;
-	justify-content: center;
-}
-
 /* Footer */
 
 .footer {
@@ -253,6 +282,7 @@ button:focus::after {
 	justify-content: center;
 	width: 100%;
 	height: 118px;
+	top: 87px;
 	background-color: #3f9ab7;
 	position: relative;
 }
